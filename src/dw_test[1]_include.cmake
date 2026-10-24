@@ -1,0 +1,5 @@
+if(EXISTS "/home/ubuntu/cosc1437/dw15/src/dw_test[1]_tests.cmake")
+  include("/home/ubuntu/cosc1437/dw15/src/dw_test[1]_tests.cmake")
+else()
+  add_test(dw_test_NOT_BUILT dw_test_NOT_BUILT)
+endif()
